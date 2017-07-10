@@ -1,5 +1,6 @@
-![÷image](https://ws2.sinaimg.cn/large/c0755e72gy1ffrqbjypa7j20hs0dhjss.jpg)
+[![](https://jitpack.io/v/saymagic/Galaxy.svg)](https://jitpack.io/#saymagic/Galaxy)
 
+[![Build Status](https://travis-ci.org/saymagic/Galaxy.svg?branch=master)](https://travis-ci.org/saymagic/Galaxy)
 
 ## Galaxy
 
@@ -18,14 +19,13 @@
 1. 配置Maven
 
  ```
-maven {
-   url 'http://10.240.133.99:8081/nexus/content/repositories/releases/'
-}
+maven { url 'https://jitpack.io' }
+
  ```
 2. 引入Galaxy
 
  ```
-compile 'com.netease.mail.galaxy:lib-core:0.0.1.0'
+ compile 'com.github.saymagic:Galaxy:v0.0.1'
  ```
 3. 初始化Galaxy
 
