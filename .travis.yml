@@ -26,9 +26,11 @@ sudo: required
 
 before_install:
 - chmod +x gradlew
+- set -ex
 - gem install fir-cli
 
 script:
+- "./gradlew dependencies || true"
 - "./gradlew assembleDebug"
 
 after_success:
