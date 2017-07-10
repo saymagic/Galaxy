@@ -25,7 +25,7 @@ maven { url 'https://jitpack.io' }
 - 引入Galaxy
 
  ```
- compile 'com.github.saymagic:Galaxy:v1.0.0'
+ compile 'com.github.saymagic:Galaxy:v1.0.1'
  ```
 - 初始化Galaxy
 
