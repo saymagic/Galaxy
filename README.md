@@ -8,7 +8,7 @@
 
 ## Features
 
-- 基于配置文件的日志打印规则，便于线上动态调整日志输出，也有利于线上问题的查找
+- 基于配置文件驱动的日志打印框架，便于动态调整线上日志输出，也有利于线上问题的查找
 - 支持单日志的多TAG 标识，可以更具有针对性的对公共模块进行日志检索
 - 自定义多渠道日志输出
 - 自定义输出格式
@@ -25,7 +25,7 @@ maven { url 'https://jitpack.io' }
 - 引入Galaxy
 
  ```
- compile 'com.github.saymagic:Galaxy:v0.0.1'
+ compile 'com.github.saymagic:Galaxy:v1.0.0'
  ```
 - 初始化Galaxy
 
